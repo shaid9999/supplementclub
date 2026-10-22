@@ -8180,4 +8180,223 @@ footer#footer,
 .footer-bottom .developer span {
     color: #111111 !important;
     font-weight: 700 !important;
+}/* =========================================================
+   REDUCE SPACE BETWEEN HEADER AND HERO SECTION
+========================================================= */
+
+/* Top margin/padding kam karne ke liye */
+.hero-section, 
+.hero-container {
+    padding-top: 15px !important;
+    margin-top: 0px !important;
+}
+
+.main-header {
+    margin-bottom: 0px !important;
+    padding-bottom: 5px !important;
+}
+
+/* Agar header aur hero ke beech koi alag wrapper spacing ho */
+.site-content, 
+main {
+    padding-top: 0px !important;
+}/* =========================================================
+   REDUCE HEADER TO HERO GAP ON MOBILE SCREENS ONLY
+========================================================= */
+
+@media (max-width: 768px) {
+    /* Mobile par header aur hero ke beech ki space zero/minimum karne ke liye */
+    .hero-section,
+    .hero-container {
+        padding-top: 1px !important;
+        margin-top: 0px !important;
+    }
+
+    .main-header {
+        margin-bottom: 0px !important;
+        padding-bottom: 5px !important;
+    }
+
+    /* Agar mobile view mein header fixed position par ho */
+    body {
+        padding-top: 0px !important;
+    }
+}/* =========================================================
+   FIX HERO SECTION TOP & BOTTOM EXTRA SPACING ON MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+    /* Hero section ki top aur bottom padding ekdam kam karne ke liye */
+    .hero-section,
+    section.hero-section,
+    .hero-container {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        min-height: auto !important;
+    }
+
+    /* Hero section ke andar ki grid spacing kam karne ke liye */
+    .hero-content {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* Consult Expert button ke niche ki gap kam karne ke liye */
+    .hero-cta,
+    .hero-actions {
+        margin-bottom: 10px !important;
+    }
+
+    /* Bottom Trust Bar ki top margin kam karne ke liye */
+    .trust-section,
+    .hero-promises {
+        margin-top: 5px !important;
+        padding-top: 10px !important;
+    }
+}/* =========================================================
+   HIDE TOP CATEGORIES SECTION COMPLETELY
+========================================================= */
+.categories-section,
+#categories {
+    display: none !important;
+}/* =========================================================
+   MOBILE DRAWER & HAMBURGER MENU - WHITE THEME FIX
+========================================================= */
+
+/* Mobile Navigation Side Drawer Background White */
+.mobile-drawer,
+.drawer-content,
+#mobile-drawer,
+.drawer-container {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #111111 !important;
+}
+
+/* Mobile Drawer Links & Text Dark */
+.drawer-link,
+.drawer-nav a,
+.drawer-menu a,
+.drawer-body a,
+.drawer-body span,
+.drawer-body i {
+    color: #222222 !important;
+    font-weight: 600 !important;
+}
+
+.drawer-link:hover,
+.drawer-nav a:hover {
+    color: var(--red) !important;
+}
+
+/* Drawer Section Category Headings (CATALOG, SUPPORT & VERIFICATION) */
+.drawer-category-title,
+.drawer-section-title,
+.drawer-heading {
+    color: var(--red) !important;
+}
+
+/* Close Button (X) inside Drawer Dark */
+.drawer-close,
+.close-drawer,
+.mobile-drawer .close-btn {
+    color: #111111 !important;
+    background: #f0f0f0 !important;
+    border-radius: 50% !important;
+}
+
+/* Header Hamburger Menu / 3 Dots / 3 Lines Icon Dark */
+.mobile-nav-toggle,
+.hamburger-menu,
+.nav-toggle,
+.menu-btn,
+.mobile-menu-btn i,
+.mobile-nav-toggle span {
+    color: #111111 !important;
+    background-color: transparent !important;
+}
+
+/* Three lines bars color fix if built with spans */
+.mobile-nav-toggle span,
+.hamburger-menu span {
+    background-color: #111111 !important;
+}/* =========================================================
+   HEADER MOBILE MENU ICON & BUTTONS VISIBILITY FIX
+========================================================= */
+
+/* Mobile Menu Toggle Icon (3 lines / Hamburger / Dots) */
+.mobile-nav-toggle,
+.menu-btn,
+.hamburger,
+.nav-toggle,
+.mobile-menu-btn,
+.header-actions button,
+.header-actions a {
+    color: #111111 !important;
+    font-size: 22px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 1001 !important;
+}
+
+/* If icon is made with FontAwesome or SVG */
+.mobile-nav-toggle i,
+.menu-btn i,
+.hamburger i,
+.nav-toggle i,
+.header-actions i {
+    color: #111111 !important;
+    fill: #111111 !important;
+}
+
+/* If 3-lines icon is made with CSS spans/bars */
+.mobile-nav-toggle span,
+.hamburger span,
+.menu-btn span {
+    background-color: #111111 !important;
+    display: block !important;
+    height: 2px !important;
+    width: 22px !important;
+    margin: 4px 0 !important;
+}
+
+/* Cart Badge & Count Icon Adjustment */
+.cart-icon,
+.cart-btn {
+    color: #111111 !important;
+}
+
+.cart-count {
+    background-color: var(--red) !important;
+    color: #ffffff !important;
+}/* =========================================================
+   HEADER LOGO TEXT SIZE INCREASE
+========================================================= */
+
+.logo-main, 
+.logo-text .logo-main,
+.main-header .logo-main {
+    font-size: 24px !important;  /* Bada font size */
+    font-weight: 800 !important; /* Bold look */
+    letter-spacing: 0.5px !important;
+}
+
+.logo-tagline,
+.logo-text .logo-tagline {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+}
+
+/* Mobile screens par bhi bada dikhne ke liye */
+@media (max-width: 768px) {
+    .logo-main, 
+    .logo-text .logo-main,
+    .main-header .logo-main {
+        font-size: 20px !important;
+    }
 }

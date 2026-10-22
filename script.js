@@ -15,7 +15,7 @@ const PRODUCT_DATABASE = [
     rating: 5,
     discount: "CLINICALLY TESTED",
 
-    image: "Screenshot_2026-08-24_123903-removebg-preview.png",
+    image: "Gemini_Generated_Image_brvq76brvq76brvq.png",
 
     
     weight: "2 KG",
@@ -38,18 +38,9 @@ const PRODUCT_DATABASE = [
         oldPrice: 3200, 
         rating: 5, 
         discount: "CLINICALLY TESTED",
-        image: "download-removebg-preview (1).png"
+        image: "download.jpg"
     },
-    { 
-        id: 3, 
-        name: "Super Gainer XXL Muscle Mass Formula (1kg / 3kg / 5kg)", 
-        brand: "MuscleBlaze", 
-        price: 1109, 
-        oldPrice: 1200, 
-        rating: 4, 
-        discount: "MASS GAINER",
-        image: "images-removebg-preview.png"
-    },
+    
     { 
         id: 4, 
         name: "Creatine Monohydrate Creapure Powder (100g / 250g)", 
@@ -84,7 +75,7 @@ const PRODUCT_DATABASE = [
         id: 7, 
         name: "HK Vitals Omega 3 Fish Oil (90 Capsules)", 
         brand: "Nutrified", 
-        price: 600, 
+        price: 590, 
         oldPrice: 750, 
         rating: 4, 
         discount: "JOINT HEALTH",
@@ -94,7 +85,7 @@ const PRODUCT_DATABASE = [
         id: 8, 
         name: "Gold Standard 100% Whey Protein | 907 g (2 lbs)", 
         brand: "OPTIMUM NUTRITION", 
-        price: 4000, 
+        price: 3999, 
         oldPrice: 4500, 
         rating: 5, 
         discount: "STRENGTH ESP",
@@ -104,7 +95,7 @@ const PRODUCT_DATABASE = [
         id: 9, 
         name: "SHAKER OPTIONAL", 
         brand: "SUPPLEMENT CLUB", 
-        price: 250, 
+        price: 99, 
         oldPrice: 350, 
         rating: 4, 
         discount: "ACCESSORY",
@@ -124,7 +115,7 @@ const PRODUCT_DATABASE = [
         id: 11, 
         name: "HK Vitals Multivitamin (90 Capsules)", 
         brand: "HK Vitals", 
-        price: 600, 
+        price: 590, 
         oldPrice: 750, 
         rating: 4, 
         discount: "DAILY HEALTH",
@@ -140,21 +131,12 @@ const PRODUCT_DATABASE = [
         discount: "MUSCLE TECH",
         image: "Screenshot_2026-05-06_230018-removebg-preview.png"
     },
-    { 
-        id: 13, 
-        name: "Labrada Mass Gainer 5 kg", 
-        brand: "Labrada", 
-        price: 2500, 
-        oldPrice: 3000, 
-        rating: 5, 
-        discount: "BESTSELLER",
-        image: "WhatsApp Image 2026-07-12 at 3.24.02 PM.jpeg"
-    },
+    
     { 
         id: 14, 
         name: "Wellcore Micronized Pure Creatine Monohydrate (307g)", 
         brand: "Wellcore", 
-        price: 1199, 
+        price: 850, 
         oldPrice: 1400, 
         rating: 5, 
         discount: "PRO SAVER",
@@ -164,7 +146,7 @@ const PRODUCT_DATABASE = [
         id: 15, 
         name: "Wellcore CREATINE Ultimate ATP Muscle Hydrator Stack (122g)", 
         brand: "Wellcore", 
-        price: 599, 
+        price: 500, 
         oldPrice: 700, 
         rating: 5, 
         discount: "MAX EXPLOSION",
@@ -172,54 +154,27 @@ const PRODUCT_DATABASE = [
     },
     { 
         id: 16, 
-        name: "My Fitness Peanut Butter 1kg / 500gm", 
-        brand: "My Fitness", 
-        price: 599, 
+        name: " Pure farm Peanut Butter 925gm ", 
+        brand: "pure farm", 
+        price: 530, 
         oldPrice: 700, 
         rating: 5, 
-        discount: "CHOCOLATE FRESH",
-        image: "WhatsApp Image 2026-07-12 at 3.23.34 PM.jpeg"
+        discount: "jaggery flavour",
+        image: "Screenshot 2026-10-22 161314.png"
     },
     { 
         id: 17, 
         name: "Pintola High Protein Peanut Butter 1 kg", 
         brand: "Pintola", 
-        price: 600, 
+        price: 550, 
         oldPrice: 750, 
         rating: 5, 
         discount: "HIGH PROTEIN",
-        image: "WhatsApp Image 2026-07-12 at 3.23.38 PM.jpeg"
+        image: "Screenshot 2026-10-22 163035.png"
     },
-    { 
-        id: 18, 
-        name: "Black Skull Mass Gainer 3kg", 
-        brand: "Black Skull", 
-        price: 2150, 
-        oldPrice: 2700, 
-        rating: 4, 
-        discount: "MASS ENGINE",
-        image: "WhatsApp Image 2026-07-12 at 3.23.57 PM.jpeg"
-    },
-    { 
-        id: 19, 
-        name: "MuscleTech NitroTech 1 kg", 
-        brand: "MuscleTech", 
-        price: 3700, 
-        oldPrice: 3999, 
-        rating: 5, 
-        discount: "VASCULAR",
-        image: "WhatsApp Image 2026-07-12 at 3.23.29 PM.jpeg"
-    },
-    { 
-        id: 20, 
-        name: "Optimum Nutrition Gold Standard Whey Protein 5 lbs", 
-        brand: "OPTIMUM NUTRITION", 
-        price: 3700, 
-        oldPrice: 9999, 
-        rating: 5, 
-        discount: "VASCULAR",
-        image: "WhatsApp Image 2026-07-12 at 3.23.23 PM.jpeg"
-    },
+    
+    
+   
     { 
         id: 21, 
         name: "MuscleBlaze BCAA Pro Intra Workout Amino Recovery", 
@@ -254,7 +209,7 @@ const PRODUCT_DATABASE = [
         id: 24, 
         name: "Xnano Gainer Anabolic Mass Gainer 5 lbs", 
         brand: "Xnano", 
-        price: 3650, 
+        price: 3350, 
         oldPrice: 3999, 
         rating: 5, 
         discount: "ANABOLIC",
@@ -264,7 +219,7 @@ const PRODUCT_DATABASE = [
         id: 25, 
         name: "Xnano Gainer Lean Mass Gainer 5 lbs", 
         brand: "Xnano", 
-        price: 3650, 
+        price: 3350, 
         oldPrice: 3999, 
         rating: 5, 
         discount: "LEAN MASS",
@@ -282,13 +237,13 @@ const PRODUCT_DATABASE = [
     },
     { 
         id: 27, 
-        name: "GNC Whey 100% (1 kg)", 
-        brand: "GNC", 
-        price: 1900, 
-        oldPrice: 2100, 
+        name: "MB fish oil (60 capsules)", 
+        brand: "mb ", 
+        price: 600, 
+        oldPrice: 700, 
         rating: 5, 
-        discount: "100% WHEY",
-        image: "Screenshot_2026-07-12_123942-removebg-preview.png"
+        discount: "joint health",
+        image: "Screenshot 2026-10-22 162707.png"
     },
     { 
         id: 28, 
@@ -297,49 +252,13 @@ const PRODUCT_DATABASE = [
         price: 250, 
         oldPrice: 300, 
         rating: 5, 
-        discount: "STAINLESS",
+        discount: "out of stock",
         image: "Screenshot_2026-07-12_123832-removebg-preview.png"
     },
-    { 
-        id: 29, 
-        name: "Avvatar Whey Protein 1kg", 
-        brand: "Avvatar", 
-        price: 3200, 
-        oldPrice: 3600, 
-        rating: 5, 
-        discount: "WHEY PROTEIN",
-        image: "Screenshot_2026-07-12_123905-removebg-preview.png"
-    },
-    { 
-        id: 30, 
-        name: "RC L-Carnitine", 
-        brand: "Ronnie Coleman", 
-        price: 1750, 
-        oldPrice: 1900, 
-        rating: 5, 
-        discount: "FAT BURN",
-        image: "WhatsApp Image 2026-07-12 at 3.22.44 PM.jpeg"
-    },
-    { 
-        id: 31, 
-        name: "Doctor Choice Oats 750g", 
-        brand: "Doctor Choice", 
-        price: 649, 
-        oldPrice: 750, 
-        rating: 5, 
-        discount: "OATS",
-        image: "WhatsApp Image 2026-07-12 at 3.22.52 PM.jpeg"
-    },
-    { 
-        id: 32, 
-        name: "MPN EAA 30 Servings", 
-        brand: "MPN", 
-        price: 1600, 
-        oldPrice: 2000, 
-        rating: 5, 
-        discount: "AMINO RECOVERY",
-        image: "WhatsApp Image 2026-07-12 at 3.22.57 PM.jpeg"
-    },
+    
+    
+    
+    
     { 
         id: 33, 
         name: "hk vitual multivitamin+men", 
@@ -380,94 +299,59 @@ const PRODUCT_DATABASE = [
         id: 38, 
         name: "xnano natural mass gainer", 
         brand: "xnano", 
-        price: 2899, 
+        price: 3399, 
         oldPrice: 3500, 
         rating: 4, 
         discount: "INTENSE PUMP",
         image: "Screenshot_2026-08-22_164828-removebg-preview.png"
-    },{ 
-        id: 39, 
-        name: "run muslce whey", 
-        brand: "run muscles", 
-        price: 5299, 
-        oldPrice: 7300, 
-        rating: 4, 
-        discount: "muslce",
-        image: "Screenshot_2026-08-22_165243-removebg-preview.png"
-    },{ 
+    },,{ 
         id: 40, 
-        name: "atom asitis whey protien 2kg", 
-        brand: "atom ", 
-        price: 5450, 
-        oldPrice: 7042, 
+        name: "pintola oats 27gm protien 1kg", 
+        brand: "pintola ", 
+        price: 480, 
+        oldPrice: 520, 
         rating: 4, 
-        discount: "atom",
-        image: "Screenshot_2026-08-24_113752-removebg-preview.png"
+        discount: "pintola",
+        image: "Screenshot 2026-10-22 160038.png"
     },{ 
         id: 41, 
         name: "alpino oats 27gm protien 2.27kg", 
         brand: "alpino oats", 
         price: 999, 
-        oldPrice: 1299, 
+        oldPrice: 1099, 
         rating: 4, 
-        discount: "alpino oats",
+        discount: "out of stock",
         image: "Screenshot_2026-08-24_114606-removebg-preview.png"
     },{ 
         id: 42, 
         name: "pintola oats 27 gm protien 2.27kg", 
         brand: "pintola oats", 
-        price: 999, 
+        price: 1049, 
         oldPrice: 1399, 
         rating: 4, 
         discount: "pintola oats",
         image: "Screenshot_2026-08-22_165624-removebg-preview.png"
-    },{ 
-        id: 43, 
-        name: "mutrified advanced 3 kg mass gainer", 
-        brand: "nf", 
-        price: 2499, 
-        oldPrice: 3999, 
-        rating: 4, 
-        discount: "nf",
-        image: "Screenshot_2026-08-22_165719-removebg-preview.png"
-    },{ 
+    },,{ 
         id: 44, 
         name: "xanao lean mass gainer gold", 
         brand: "xnano", 
-        price: 2800, 
+        price: 3200, 
         oldPrice: 4600, 
         rating: 4, 
         discount: "INTENSE PUMP",
         image: "Screenshot_2026-08-22_165803-removebg-preview (1).png"
-    },{ 
-        id: 45, 
-        name: "hydro insane mass gainer 2.7kg", 
-        brand: "Muscle Doctor", 
-        price: 2799, 
-        oldPrice: 3999, 
+    },,,
+    { 
+        id: 44, 
+        name: "xanao lean mass gainer gold", 
+        brand: "xnano", 
+        price: 3200, 
+        oldPrice: 4600, 
         rating: 4, 
         discount: "INTENSE PUMP",
-        image: "WhatsApp_Image_2026-08-24_at_12.06.12_PM-removebg-preview.png"
-    },{ 
-        id: 46, 
-        name: "hydra whey 100 pure isolate protien ", 
-        brand: "hydro 100", 
-        price: 4999, 
-        oldPrice: 5999, 
-        rating: 4, 
-        discount: "recovery",
-        image: "WhatsApp_Image_2026-08-24_at_12.06.13_PM-removebg-preview.png"
-    },
-    { 
-        id: 47, 
-        name: "Nitra Preworkout Muscle Reign", 
-        brand: "Muscle Reign", 
-        price: 1699, 
-        oldPrice: 1999, 
-        rating: 5, 
-        discount: "PREMIUM HYDRO",
-        image: "WhatsApp Image 2026-07-12 at 3.23.17 PM.jpeg"
+        image: "Screenshot_2026-08-22_165803-removebg-preview (1).png"
     }
+    
 ];
 
 let SHOPPING_CART = [];
@@ -812,577 +696,4 @@ if (window.location.pathname.includes("product.html")) {
 
             const galleryImages =
                 product.images && product.images.length
-                    ? product.images
-                    : [product.image];
-
-
-            galleryImages.forEach((image, index) => {
-
-                const thumb =
-                    document.createElement("div");
-
-                thumb.className = "thumb";
-
-
-                if (index === 0) {
-                    thumb.classList.add("active");
-                }
-
-
-                thumb.innerHTML = `
-                    <img
-                        src="${image}"
-                        alt="${product.name}"
-                    >
-                `;
-
-
-                thumb.addEventListener("click", () => {
-
-                    if (mainImage) {
-                        mainImage.src = image;
-                    }
-
-
-                    document
-                        .querySelectorAll(
-                            ".product-page .thumb"
-                        )
-                        .forEach(item => {
-
-                            item.classList.remove("active");
-
-                        });
-
-
-                    thumb.classList.add("active");
-
-                });
-
-
-                thumbnailContainer.appendChild(thumb);
-
-            });
-
-        }
-
-
-        // WEIGHT OPTIONS
-        const weightBox =
-            document.getElementById("weight-options");
-
-        if (weightBox) {
-
-            weightBox.innerHTML = "";
-
-            let weights = [];
-
-
-            if (product.weights && product.weights.length) {
-
-                weights = product.weights;
-
-            } else if (product.weight) {
-
-                weights = [product.weight];
-
-            } else if (product.id === 3) {
-
-                weights = [
-                    "1 KG",
-                    "3 KG",
-                    "5 KG"
-                ];
-
-            } else {
-
-                weights = ["Standard"];
-
-            }
-
-
-            weights.forEach((weight, index) => {
-
-                const button =
-                    document.createElement("button");
-
-                button.type = "button";
-
-                button.textContent = weight;
-
-
-                if (index === 0) {
-                    button.classList.add("selected");
-                }
-
-
-                button.addEventListener("click", () => {
-
-                    weightBox
-                        .querySelectorAll("button")
-                        .forEach(btn => {
-
-                            btn.classList.remove(
-                                "selected"
-                            );
-
-                        });
-
-
-                    button.classList.add("selected");
-
-                });
-
-
-                weightBox.appendChild(button);
-
-            });
-
-        }
-
-
-        // FLAVOUR OPTIONS
-        const flavourBox =
-            document.getElementById("flavour-options");
-
-        if (flavourBox) {
-
-            flavourBox.innerHTML = "";
-
-            let flavours = [];
-
-
-            if (
-                product.flavours &&
-                product.flavours.length
-            ) {
-
-                flavours = product.flavours;
-
-            } else {
-
-                flavours = ["Original"];
-
-            }
-
-
-            flavours.forEach((flavour, index) => {
-
-                const button =
-                    document.createElement("button");
-
-                button.type = "button";
-
-                button.textContent = flavour;
-
-
-                if (index === 0) {
-                    button.classList.add("selected");
-                }
-
-
-                button.addEventListener("click", () => {
-
-                    flavourBox
-                        .querySelectorAll("button")
-                        .forEach(btn => {
-
-                            btn.classList.remove(
-                                "selected"
-                            );
-
-                        });
-
-
-                    button.classList.add("selected");
-
-                });
-
-
-                flavourBox.appendChild(button);
-
-            });
-
-        }
-
-
-        // ADD TO CART
-        const addCartButton =
-            document.getElementById("add-cart-btn");
-
-        if (addCartButton) {
-
-            addCartButton.onclick = () => {
-
-                addItemToCartContainer(product.id);
-
-                alert(
-                    "Product added to cart."
-                );
-
-            };
-
-        }
-
-
-        // BUY NOW
-        const buyButton =
-            document.getElementById("buy-btn");
-
-        if (buyButton) {
-
-            buyButton.onclick = () => {
-
-                executeWhatsAppDirectCheckout(
-                    product.id
-                );
-
-            };
-
-        }
-
-
-        // PINCODE CHECK
-        const pincodeButton =
-            document.getElementById("pincode-check");
-
-        const pincodeInput =
-            document.getElementById("pincode-input");
-
-        const deliveryResult =
-            document.getElementById("delivery-result");
-
-
-        if (
-            pincodeButton &&
-            pincodeInput &&
-            deliveryResult
-        ) {
-
-            pincodeButton.onclick = () => {
-
-                const pincode =
-                    pincodeInput.value.trim();
-
-
-                if (!/^\d{6}$/.test(pincode)) {
-
-                    deliveryResult.textContent =
-                        "Please enter a valid 6-digit pincode.";
-
-                    deliveryResult.style.color =
-                        "#ff5555";
-
-                    return;
-                }
-
-
-                deliveryResult.textContent =
-                    "✓ Delivery available • Estimated 3 days";
-
-                deliveryResult.style.color =
-                    "#4ade80";
-
-            };
-
-        }
-
-    }
-
-}// =========================================================
-// PREMIUM RECOMMENDED PRODUCTS
-// =========================================================
-
-function initializeRecommendedProducts() {
-
-    const box = document.getElementById("recommended-products");
-
-    if (!box) return;
-
-    const params = new URLSearchParams(window.location.search);
-
-    const currentId = Number(params.get("id"));
-
-    const currentProduct = PRODUCT_DATABASE.find(
-        item => item.id === currentId
-    );
-
-    if (!currentProduct) return;
-
-
-    // Same brand products first
-    let products = PRODUCT_DATABASE.filter(item =>
-        item.id !== currentId &&
-        item.brand === currentProduct.brand
-    );
-
-
-    // Fill remaining slots from catalog
-    const remainingProducts = PRODUCT_DATABASE.filter(item =>
-        item.id !== currentId &&
-        !products.some(p => p.id === item.id)
-    );
-
-
-    products = [
-        ...products,
-        ...remainingProducts
-    ].slice(0, 4);
-
-
-    // Clear old content
-    box.innerHTML = "";
-
-
-    // Create cards
-    products.forEach(product => {
-
-        const rating = Number(product.rating) || 0;
-
-        let stars = "";
-
-        for (let i = 1; i <= 5; i++) {
-
-            stars += i <= rating ? "★" : "☆";
-
-        }
-
-
-        let discount = 0;
-
-        if (
-            product.oldPrice &&
-            product.oldPrice > product.price
-        ) {
-
-            discount = Math.round(
-                (
-                    (product.oldPrice - product.price) /
-                    product.oldPrice
-                ) * 100
-            );
-
-        }
-
-
-        const card = document.createElement("article");
-
-        card.className = "recommended-card";
-
-
-        card.innerHTML = `
-
-            ${
-                discount > 0
-                    ? `
-                        <span class="recommended-sale-badge">
-                            ${discount}% OFF
-                        </span>
-                    `
-                    : ""
-            }
-
-
-            <button
-                type="button"
-                class="recommended-wishlist"
-                aria-label="Wishlist"
-            >
-                <i class="far fa-heart"></i>
-            </button>
-
-
-            <div class="recommended-image">
-
-                <img
-                    src="${product.image}"
-                    alt="${product.name}"
-                    loading="lazy"
-                >
-
-            </div>
-
-
-            <div class="recommended-content">
-
-                <div class="recommended-brand">
-                    ${product.brand}
-                </div>
-
-
-                <div class="recommended-genuine">
-
-                    <i class="fas fa-circle-check"></i>
-
-                    100% Genuine
-
-                </div>
-
-
-                <h3>
-                    ${product.name}
-                </h3>
-
-
-                <div class="recommended-rating">
-
-                    <span class="recommended-stars">
-                        ${stars}
-                    </span>
-
-                    <span class="recommended-rating-number">
-                        ${rating}.0
-                    </span>
-
-                    <span class="recommended-verified">
-                        Verified
-                    </span>
-
-                </div>
-
-
-                <div class="recommended-price">
-
-                    <strong>
-                        ₹${product.price.toLocaleString("en-IN")}
-                    </strong>
-
-
-                    ${
-                        product.oldPrice
-                            ? `
-                                <del>
-                                    ₹${product.oldPrice.toLocaleString("en-IN")}
-                                </del>
-                            `
-                            : ""
-                    }
-
-
-                    ${
-                        discount > 0
-                            ? `
-                                <span class="recommended-save">
-                                    Save ${discount}%
-                                </span>
-                            `
-                            : ""
-                    }
-
-                </div>
-
-
-                <div class="recommended-delivery">
-
-                    <i class="fas fa-truck-fast"></i>
-
-                    Fast & Secure Delivery
-
-                </div>
-
-
-                <div class="recommended-actions">
-
-                    <button
-                        type="button"
-                        class="recommended-add-cart"
-                    >
-                        <i class="fas fa-cart-plus"></i>
-                        ADD TO CART
-                    </button>
-
-
-                    <button
-                        type="button"
-                        class="recommended-buy-now"
-                    >
-                        BUY NOW
-                    </button>
-
-                </div>
-
-            </div>
-
-        `;
-
-
-        // Card click → product detail
-        card.addEventListener("click", function(event) {
-
-            if (
-                event.target.closest(".recommended-actions") ||
-                event.target.closest(".recommended-wishlist")
-            ) {
-                return;
-            }
-
-            window.location.href =
-                `product.html?id=${product.id}`;
-
-        });
-
-
-        // Add to cart
-        const addCart =
-            card.querySelector(".recommended-add-cart");
-
-        addCart.addEventListener("click", function(event) {
-
-            event.stopPropagation();
-
-            addItemToCartContainer(product.id);
-
-        });
-
-
-        // Buy now
-        const buyNow =
-            card.querySelector(".recommended-buy-now");
-
-        buyNow.addEventListener("click", function(event) {
-
-            event.stopPropagation();
-
-            window.location.href =
-                `product.html?id=${product.id}`;
-
-        });
-
-
-        // Wishlist
-        const wishlist =
-            card.querySelector(".recommended-wishlist");
-
-        wishlist.addEventListener("click", function(event) {
-
-            event.stopPropagation();
-
-            const icon =
-                wishlist.querySelector("i");
-
-            icon.classList.toggle("far");
-            icon.classList.toggle("fas");
-
-        });
-
-
-        box.appendChild(card);
-
-    });
-
-}
-
-
-// =========================================================
-// START RECOMMENDED PRODUCTS
-// =========================================================
-
-if (
-    window.location.pathname
-        .toLowerCase()
-        .includes("product.html")
-) {
-
-    initializeRecommendedProducts();
-
-}
+             

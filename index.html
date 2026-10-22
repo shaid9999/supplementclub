@@ -1,501 +1,1227 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Details | Supplement Club</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet"
->
+    <title>SUPPLEMENT CLUB // Premium Supplement club</title>
 
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
+
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- =========================================================
-     PRODUCT PAGE — MAIN WEBSITE HEADER
-========================================================= -->
+         BACKGROUND
+    ========================================================== -->
 
-<div class="premium-bg-animation" aria-hidden="true">
-    <div class="orb entry-1"></div>
-    <div class="orb entry-2"></div>
-    <div class="orb entry-3"></div>
-</div>
+    <div class="premium-bg-animation" aria-hidden="true">
+        <div class="orb entry-1"></div>
+        <div class="orb entry-2"></div>
+        <div class="orb entry-3"></div>
+    </div>
 
 
-<!-- TOP BAR -->
+    <!-- =========================================================
+         TOP CONTACT BAR
+    ========================================================== -->
 
-<div class="top-bar">
+    <div class="top-bar">
 
-    <div class="top-bar-left">
+        <div class="top-bar-left">
 
-        <a
-            href="https://www.instagram.com/supplement_club.in/profilecard/"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            <i class="fab fa-instagram"></i>
-            <span>@supplement_club.in</span>
-        </a>
+            <a
+                href="https://www.instagram.com/supplement_club.in/profilecard/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fab fa-instagram"></i>
+                <span>@supplement_club.in</span>
+            </a>
 
-        <a
-            href="https://wa.me/9797491301"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            <i class="fab fa-whatsapp"></i>
-            <span>6005447821</span>
-        </a>
+            <a
+                href="https://wa.me/919906873783"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fab fa-whatsapp"></i>
+                <span>9906873783</span>
+            </a>
 
-        <a href="tel:+916005447821">
-            <i class="fas fa-phone-alt"></i>
-            <span>Call Us</span>
-        </a>
+            <a href="tel:+919906873783">
+                <i class="fas fa-phone-alt"></i>
+                <span>Call Us</span>
+            </a>
 
-        <a href="mailto:support@newphone66p.com">
-            <i class="far fa-envelope"></i>
-            <span>Email Us</span>
-        </a>
+            <a href="mailto:support@newphone66p.com">
+                <i class="far fa-envelope"></i>
+                <span>Email Us</span>
+            </a>
+
+        </div>
+
+        <div class="top-bar-right">
+            <span>
+                <i class="fas fa-bolt"></i>
+                100% AUTHENTIC SUPPLEMENTS DIRECT FROM IMPORTERS
+            </span>
+        </div>
 
     </div>
 
 
-    <div class="top-bar-right">
+    <!-- =========================================================
+         MAIN HEADER
+    ========================================================== -->
 
-        <span>
-            <i class="fas fa-bolt"></i>
-            100% AUTHENTIC SUPPLEMENTS DIRECT FROM IMPORTERS
+    <header class="main-header">
+
+        <div class="header-container">
+
+            <!-- LOGO -->
+
+         <a href="#home" class="logo">
+
+    <img src="sssd..png"
+         alt="Supplement Club Logo"
+         class="logo-bull">
+
+    <div class="logo-text">
+
+        <span class="logo-main">
+            SUPPLEMENT<span>-CLUB</span>
+
+        <span class="logo-tagline">
+            FUEL YOUR PERFORMANCE
         </span>
 
     </div>
 
-</div>
+</a>  
+
+            <!-- DESKTOP NAVIGATION -->
+
+            <nav class="desktop-nav" aria-label="Main Navigation">
+
+                <a href="#home" class="nav-link active">
+                    Home
+                </a>
+
+                <a href="#products" class="nav-link">
+                    Supplements Store
+                </a>
+
+                <a href="#brands" class="nav-link">
+                    Elite Brands
+                </a>
+
+                <a href="#services" class="nav-link">
+                    Our Promise
+                </a>
+
+                <a href="#footer" class="nav-link">
+                    Contact
+                </a>
+
+            </nav>
 
 
-<!-- MAIN HEADER -->
+            <!-- HEADER ACTIONS -->
 
-<header class="main-header">
+            <div class="header-actions">
 
-    <div class="header-container">
+                <button
+                    type="button"
+                    id="search-btn"
+                    aria-label="Search"
+                >
+                    <i class="fas fa-search"></i>
+                </button>
 
 
-        <!-- LOGO -->
+                <button
+                    type="button"
+                    id="cart-btn"
+                    class="cart-trigger"
+                    aria-label="Shopping Cart"
+                >
 
-        <a href="index.html" class="logo">
+                    <i class="fas fa-shopping-cart"></i>
 
-            <img
-                src="sssd..png"
-                alt="Supplement Club Bull Logo"
-                class="logo-bull"
+                    <span class="cart-count">
+                        0
+                    </span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    id="menu-toggle"
+                    class="hamburger"
+                    aria-label="Open Menu"
+                    aria-expanded="false"
+                >
+
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================================
+         MOBILE DRAWER
+    ========================================================== -->
+
+    <div
+        class="mobile-drawer"
+        id="mobile-drawer"
+        aria-hidden="true"
+    >
+
+        <div class="drawer-header">
+
+            <a href="#home" class="logo">
+
+            </a>
+
+            <button
+                type="button"
+                id="drawer-close"
+                aria-label="Close Menu"
             >
+                <i class="fas fa-times"></i>
+            </button>
 
-            <div class="logo-text">
+        </div>
 
-                <span class="logo-main">
-                    SUPPLEMENT<span>-CLUB</span>
+
+        <div class="drawer-body">
+
+            <nav class="mobile-nav" aria-label="Mobile Navigation">
+
+                <a href="#home" class="drawer-link">
+                    <i class="fas fa-house"></i>
+                    Home
+                </a>
+
+                <div class="drawer-divider">
+                    CATALOG
+                </div>
+
+                <a href="#products" class="drawer-link">
+                    <i class="fas fa-dumbbell"></i>
+                    All Premium Supplements
+                </a>
+
+                <a href="#brands" class="drawer-link">
+                    <i class="fas fa-award"></i>
+                    Elite Brands
+                </a>
+
+                <div class="drawer-divider">
+                    SUPPORT & VERIFICATION
+                </div>
+
+                <a
+                    href="https://wa.me/919906873783"
+                    class="drawer-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-whatsapp"></i>
+                    Track Order via WhatsApp
+                </a>
+
+                <a
+                    href="tel:+919906873783"
+                    class="drawer-link"
+                >
+                    <i class="fas fa-headset"></i>
+                    Help Center Desk
+                </a>
+
+                <a
+                    href="#footer"
+                    class="drawer-link"
+                >
+                    <i class="fas fa-envelope"></i>
+                    Contact Store
+                </a>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+
+    <!-- DRAWER OVERLAY -->
+
+    <div
+        class="drawer-overlay"
+        id="drawer-overlay"
+    ></div>
+
+
+    <!-- =========================================================
+         SEARCH OVERLAY
+    ========================================================== -->
+
+    <div
+    
+        class="search-overlay"
+        id="search-overlay"
+        aria-hidden="true"
+    >
+<!-- HOME / BACK -->
+    <button
+        type="button"
+        class="search-home"
+        id="search-home"
+        aria-label="Back to Home"
+    >
+        <i class="fas fa-arrow-left"></i>
+        <span>Home</span>
+    </button>
+
+        <button
+        
+            type="button"
+            class="search-close"
+            id="search-close"
+            aria-label="Close Search"
+        >
+            <i class="fas fa-times"></i>
+        </button>
+
+
+        <div class="search-container">
+
+            <div class="search-input-wrapper">
+
+                <i class="fas fa-search"></i>
+
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="Search proteins, brands, supplements..."
+                    autocomplete="off"
+                >
+
+            </div>
+<!-- TRENDING SEARCHES -->
+<div class="search-trending">
+
+    <div class="trending-title">
+        <span class="trending-dot"></span>
+        TRENDING SEARCHES
+    </div>
+
+    <div class="trending-tags">
+
+        <button type="button" data-search="Whey Protein">
+            Whey Protein
+        </button>
+
+        <button type="button" data-search="Creatine">
+            Creatine
+        </button>
+
+        <button type="button" data-search="Mass Gainer">
+            Mass Gainer
+        </button>
+
+        <button type="button" data-search="Pre Workout">
+            Pre-Workout
+        </button>
+
+        <button type="button" data-search="Oats">
+            Oats
+        </button>
+
+        <button type="button" data-search="Multivitamins">
+            Multivitamins
+        </button>
+
+    </div>
+
+</div>
+            <div
+                class="search-results"
+                id="search-results"
+            ></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         CART SIDEBAR
+    ========================================================== -->
+
+    <div
+        class="cart-sidebar"
+        id="cart-sidebar"
+        aria-hidden="true"
+    >
+
+        <div class="cart-sidebar-header">
+
+            <h3>
+                Your Selection
+                (
+                <span class="cart-count">0</span>
+                )
+            </h3>
+
+            <button
+                type="button"
+                id="cart-sidebar-close"
+                aria-label="Close Cart"
+            >
+                <i class="fas fa-times"></i>
+            </button>
+
+        </div>
+
+
+        <div
+            class="cart-sidebar-items"
+            id="cart-sidebar-items"
+        >
+
+            <div class="empty-cart-message">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Your selection is currently empty.</p>
+            </div>
+
+        </div>
+
+
+        <div class="cart-sidebar-footer">
+
+            <div class="cart-total-row">
+
+                <span>
+                    Total Value
                 </span>
 
-                <span class="logo-tagline">
-                    FUEL YOUR PERFORMANCE
+                <span id="cart-subtotal">
+                    ₹0
                 </span>
 
             </div>
 
-        </a>
-
-
-        <!-- DESKTOP NAVIGATION -->
-
-        <nav
-            class="desktop-nav"
-            aria-label="Main Navigation"
-        >
-
-            <a
-                href="index.html#home"
-                class="nav-link"
-            >
-                Home
-            </a>
-
-
-            <a
-                href="index.html#products"
-                class="nav-link"
-            >
-                Supplements Store
-            </a>
-
-
-            <a
-                href="index.html#brands"
-                class="nav-link"
-            >
-                Elite Brands
-            </a>
-
-
-            <a
-                href="index.html#services"
-                class="nav-link"
-            >
-                Our Promise
-            </a>
-
-
-            <a
-                href="index.html#footer"
-                class="nav-link"
-            >
-                Contact
-            </a>
-
-        </nav>
-
-
-        <!-- HEADER ACTIONS -->
-
-        <div class="header-actions">
 
             <button
                 type="button"
-                id="search-btn"
-                aria-label="Search"
+                class="checkout-btn btn btn-primary"
+                onclick="checkoutEntireCartViaWhatsApp()"
             >
-                <i class="fas fa-search"></i>
-            </button>
-
-
-            <button
-                type="button"
-                id="cart-btn"
-                aria-label="Shopping Cart"
-            >
-                <i class="fas fa-shopping-bag"></i>
-            </button>
-
-
-            <button
-                type="button"
-                id="menu-toggle"
-                class="mobile-menu-toggle"
-                aria-label="Open Menu"
-            >
-                <i class="fas fa-bars"></i>
+                <i class="fab fa-whatsapp"></i>
+                Order Entire Bag Via WhatsApp
             </button>
 
         </div>
 
     </div>
 
-</header>
 
-<main class="product-page">
+    <!-- =========================================================
+         HERO SECTION
+    ========================================================== -->
 
-    <div class="product-container">
+    <section
+        id="home"
+        class="hero-section"
+    >
 
-        <!-- ================= LEFT SIDE ================= -->
+        <div class="hero-overlay"></div>
 
-        <div class="product-left">
 
-            <div class="main-image">
+        <div class="hero-container">
 
-                <img
-                    id="main-product-image"
-                    src=""
-                    alt="Product"
-                >
+            <!-- LEFT CONTENT -->
+             
+            <div class="hero-content observe-fade">
+
+                <span class="hero-tagline">
+                    SCIENTIFICALLY FORMULATED ELITE NUTRITION
+                </span>
+                <h1 class="hero-title">
+                    <span>PREMIUM</span>
+                    <span class="accent">
+                        SUPPLEMENTS
+                    </span>
+                    <span>FOR SERIOUS</span>
+                    <span>ATHLETES</span>
+
+                </h1>
+
+
+                <!-- HERO PROMISES -->
+
+                <div class="hero-promises">
+
+                    <div class="hero-promise">
+                        100% Genuine Products
+                    </div>
+
+                    <div class="hero-promise">
+                        Fast Delivery
+                    </div>
+
+                    <div class="hero-promise">
+                        Guaranteed Best Rates
+                    </div>
+
+                </div>
+
+
+                <!-- HERO BUTTONS -->
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#products"
+                        class="btn btn-primary"
+                    >
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Shop Elite Catalog</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+
+                    <a
+                        href="https://wa.me/919906873783"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-secondary"
+                    >
+                        <i class="fas fa-user-headset"></i>
+                        <span>Consult Expert</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
 
             </div>
 
 
-            <div
-                class="thumbnail-images"
-                id="thumbnail-images"
-            ></div>
+            <!-- RIGHT BULL -->
+
+            <div class="hero-bull">
+
+                <div class="bull-glow"></div>
+
+                <img
+                    src="sssd..png"
+                    alt="Supplement Club Logo"
+                    loading="eager"
+                >
+
+            </div>
 
         </div>
 
 
-        <!-- ================= RIGHT SIDE ================= -->
+        <!-- SCROLL INDICATOR -->
 
-        <div class="product-right">
+        <div class="scroll-indicator" aria-hidden="true">
 
-            <h1 id="product-name">
-                Loading...
-            </h1>
-
-
-            <p id="product-brand"></p>
-
-
-            <div
-                id="product-rating"
-                class="detail-rating"
-            ></div>
-
-
-            <h2 id="product-price"></h2>
-
-
-            <!-- TRUST BADGES -->
-
-            <div class="trust-badges">
-
-                <span>
-                    <i class="fas fa-circle-check"></i>
-                    Verified Original
-                </span>
-
-                <span>
-                    <i class="fas fa-flask"></i>
-                    Lab Tested
-                </span>
-
+            <div class="mouse">
+                <span></span>
             </div>
 
+        </div>
 
-            <!-- CERTIFICATION -->
+    </section>
 
-            <div class="certification-row">
 
-                <div class="fssai-badge">
+    <!-- =========================================================
+         TRUST / PROMISE SECTION
+    ========================================================== -->
 
-                    <strong>FSSAI</strong>
+    <section
+        id="services"
+        class="trust-section"
+    >
 
-                    <small>APPROVED</small>
+        <div class="trust-container">
 
+
+            <!-- ORIGINAL -->
+
+            <div class="trust-card">
+
+                <div class="trust-icon">
+                    <i class="fas fa-shield-halved"></i>
                 </div>
 
+                <div class="trust-content">
 
-                <div class="nabl-badge">
+                    <h3>
+                        100% Original
+                    </h3>
 
-                    <i class="fas fa-certificate"></i>
-
-                    <small>
-                        Verified by<br>
-                        NABL Lab
-                    </small>
+                    <p>
+                        Authentic products only
+                    </p>
 
                 </div>
-
-            </div>
-
-
-            <!-- FLAVOUR -->
-
-            <div class="option-box">
-
-                <h3>
-                    Choose Flavour
-                </h3>
-
-                <div
-                    class="option-list"
-                    id="flavour-options"
-                ></div>
-
-            </div>
-
-
-            <!-- WEIGHT -->
-
-            <div class="option-box">
-
-                <h3>
-                    Choose Weight
-                </h3>
-
-                <div
-                    class="option-list"
-                    id="weight-options"
-                ></div>
-
-            </div>
-
-
-            <!-- SERVINGS -->
-
-            <div class="option-box servings-box">
-
-                <h3>
-                    Servings
-                </h3>
-
-                <p id="servings">
-                    -
-                </p>
-
-            </div>
-
-
-            <!-- PINCODE -->
-
-            <div class="pincode-section">
-
-                <span>
-                    Check Pincode for Delivery
-                </span>
-
-
-                
-
-
-                <span id="delivery-result"></span>
-
-            </div>
-
-
-            <!-- BUTTONS -->
-
-            <div class="button-area">
-
-                <button
-                    id="add-cart-btn"
-                >
-                    ADD TO CART
-                </button>
-
-
-                <button
-                    id="buy-btn"
-                >
-                    BUY NOW
-                </button>
 
             </div>
 
 
             <!-- DELIVERY -->
 
-            <div class="delivery-info">
+            <div class="trust-card">
 
-                <span>
-                    <i class="fas fa-truck"></i>
-                    
-                </span>
+                <div class="trust-icon">
+                    <i class="fas fa-truck-fast"></i>
+                </div>
 
-                <span>
-                    |
-                </span>
+                <div class="trust-content">
 
-                <span>
-                    
-                </span>
+                    <h3>
+                        Fast Delivery
+                    </h3>
+
+                    <p>
+                        Quick & secure shipping
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- ATHLETES -->
+
+            <div class="trust-card">
+
+                <div class="trust-icon">
+                    <i class="fas fa-dumbbell"></i>
+                </div>
+
+                <div class="trust-content">
+
+                    <h3>
+                        Trusted by Athletes
+                    </h3>
+
+                    <p>
+                        Built for serious training
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- SUPPORT -->
+
+            <div class="trust-card">
+
+                <div class="trust-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+
+                <div class="trust-content">
+
+                    <h3>
+                        Expert Support
+                    </h3>
+
+                    <p>
+                        Personal fitness guidance
+                    </p>
+
+                </div>
 
             </div>
 
         </div>
 
-    </div>
+    </section>
 
-
-    <!-- ================= DESCRIPTION ================= -->
 
     <!-- =========================================================
-     PREMIUM PRODUCT DESCRIPTION
-========================================================= -->
+         BRANDS
+    ========================================================== -->
 
-<section class="product-description-section">
+    <section
+        id="brands"
+        class="brands-section"
+    >
 
-    <div class="product-description-inner">
+        <div class="brands-slider">
 
-        <span class="description-eyebrow">
-            PRODUCT DETAILS
-        </span>
+            <div class="brands-track">
 
-        <h2>
-            About This Product
-        </h2>
+                <span>Optimum Nutrition</span>
+                <span>MuscleBlaze</span>
+                <span>Avvatar</span>
+                <span>Nutrabay</span>
+                <span>GNC</span>
+                <span>Kevin Levrone</span>
+                <span>Rule1</span>
+                <span>Dymatize</span>
+                <span>MyProtein</span>
+                <span>MuscleTech</span>
 
-        <p id="product-description">
-            Loading product information...
-        </p>
+                <span>Optimum Nutrition</span>
+                <span>MuscleBlaze</span>
+                <span>Avvatar</span>
+                <span>Nutrabay</span>
+                <span>GNC</span>
+                <span>Kevin Levrone</span>
+                <span>Rule1</span>
+                <span>Dymatize</span>
+                <span>MyProtein</span>
+                <span>MuscleTech</span>
 
-        <div class="description-highlights">
-
-            <div class="description-highlight">
-                <i class="fas fa-shield-halved"></i>
-
-                <div>
-                    <strong>Authentic Product</strong>
-                    <span>Quality checked before dispatch</span>
-                </div>
-            </div>
-
-
-            <div class="description-highlight">
-                <i class="fas fa-box-open"></i>
-
-                <div>
-                    <strong>Secure Packaging</strong>
-                    <span>Carefully packed for delivery</span>
-                </div>
-            </div>
-
-
-            <div class="description-highlight">
-                <i class="fas fa-truck-fast"></i>
-
-                <div>
-                    <strong>Fast Delivery</strong>
-                    <span>Reliable delivery service</span>
-                </div>
             </div>
 
         </div>
 
+    </section>
+
+
+    <!-- =========================================================
+         TOP CATEGORIES
+    ========================================================== -->
+
+    <section class="categories-section">
+
+        <div class="section-container">
+
+            <div class="categories-heading">
+
+                <span class="section-eyebrow">
+                    EXPLORE OUR RANGE
+                </span>
+
+                <h2>
+                    Top Categories
+                </h2>
+
+                <p>
+                    Fuel your goals with the best,
+                    only at Supplement Club.
+                </p>
+
+            </div>
+
+
+            <div class="categories-grid">
+
+
+                <!-- WHEY -->
+
+                <a
+                    href="#products"
+                    class="category-card"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="whye.png"
+                            alt="Whey Protein"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="category-content">
+
+                        <h3>
+                            Whey Protein
+                        </h3>
+
+                        <span>
+                            View Products
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- MASS GAINER -->
+
+                <a
+                    href="#products"
+                    class="category-card"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="bcaa.png"
+                            alt="Mass Gainer"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="category-content">
+
+                        <h3>
+                            BCAA
+                        </h3>
+
+                        <span>
+                            View Products
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+ <!-- MASS GAINER -->
+
+                <a
+                    href="#products"
+                    class="category-card"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="massgainer.png"
+                            alt="Mass Gainer"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="category-content">
+
+                        <h3>
+                            Mass Gainers
+                        </h3>
+
+                        <span>
+                            View Products
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+                <!-- PRE WORKOUT -->
+
+                <a
+                    href="#products"
+                    class="category-card"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="prework.png"
+                            alt="Pre Workout"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="category-content">
+
+                        <h3>
+                            Pre Workout
+                        </h3>
+
+                        <span>
+                            View Products
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- CREATINE -->
+
+                <a
+                    href="#products"
+                    class="category-card"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="creatine.png"
+                            alt="Creatine"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="category-content">
+
+                        <h3>
+                            Creatine
+                        </h3>
+
+                        <span>
+                            View Products
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         PRODUCTS
+    ========================================================== -->
+
+    <section
+        id="products"
+        class="products-section"
+    >
+
+        <div class="section-container">
+
+            <div class="section-header observe-fade">
+
+                <span class="section-eyebrow">
+                    PREMIUM COLLECTION
+                </span>
+
+                <h2 class="section-title">
+                    The Complete Premium Lineup
+                </h2>
+
+                <p class="section-subtitle">
+                    Premium supplements for serious athletes.
+                    Authentic products, trusted brands and
+                    reliable service.
+                </p>
+
+            </div>
+
+
+            <div
+                class="products-grid"
+                id="products-grid"
+            ></div>
+
+        </div>
+
+    </section>
+
+
+   
+
+    <!-- =========================================================
+         NEWSLETTER
+    ========================================================== -->
+
+    <section class="newsletter-section">
+
+        <div class="section-container newsletter-box">
+
+            <span class="section-eyebrow">
+                STAY UPDATED
+            </span>
+
+            <h2>
+                Join Our Elite Roster
+            </h2>
+
+            <p>
+                Get updates on new arrivals, offers and
+                premium supplement launches.
+            </p>
+
+
+            <form
+                class="newsletter-form"
+                onsubmit="event.preventDefault(); alert('Thank you for joining Supplement Club.');"
+            >
+
+                <input
+                    type="email"
+                    placeholder="Enter your email address..."
+                    required
+                >
+
+                <button
+                    type="submit"
+                    class="btn btn-primary"
+                >
+                    Join Now
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+
+    <footer
+        id="footer"
+        class="main-footer"
+    >
+
+        <div class="section-container footer-grid">
+
+
+            <div class="footer-brand-col">
+
+                <a
+                    href="#home"
+                    class="logo"
+                >
+
+                    <span class="logo-main">
+                        SUPPLEMENT<span>-CLUB</span>
+                    </span>
+
+                    <span class="logo-tagline">
+                        FUEL YOUR PERFORMANCE
+                    </span>
+
+                </a>
+
+
+                <p class="footer-desc">
+                    Premium nutrition products for
+                    serious athletes. Authentic products,
+                    trusted brands and direct support.
+                </p>
+
+
+                <div class="social-links">
+
+                    <a
+                        href="https://instagram.com/supplement club.in"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram"
+                    >
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a
+                        href="https://wa.me/919906873783"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="WhatsApp"
+                    >
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                    <a
+                        href="tel:+919906873783"
+                        aria-label="Call"
+                    >
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+
+                    <a
+                        href="mailto:support@newphone66p@gmail.com"
+                        aria-label="Email"
+                    >
+                        <i class="far fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- QUICK ACCESS -->
+
+            <div class="footer-links-col">
+
+                <h4>
+                    Quick Access
+                </h4>
+
+                <ul>
+
+                    <li>
+                        <a href="#home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#products">
+                            Supplements Store
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#brands">
+                            Partner Brands
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#services">
+                            Our Promise
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- CUSTOMER CARE -->
+
+            <div class="footer-links-col">
+
+                <h4>
+                    Customer Care
+                </h4>
+
+                <ul>
+
+                    <li>
+                        <a href="https://wa.me/919906873783">
+                            Shipping Query
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://wa.me/919906873783">
+                            Product Verification
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Privacy Policy
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Terms & Conditions
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+       <div class="footer-bottom">
+    <p class="copyright">
+        © 2026 <span>SUPPLEMENT CLUB</span>. All Rights Reserved.
+    </p>
+
+    <p class="developer">
+        Designed & Developed with <i class=""></i>
+        by <span></span>newphone66p@gmail.com
+    </p>
+</div>
+    </footer>
+
+
+    <!-- =========================================================
+         FLOATING ACTIONS
+    ========================================================== -->
+
+    <div class="floating-actions-container">
+
+
+        <!-- WHATSAPP -->
+
+        <a
+            href="https://wa.me/919906873783"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-btn whatsapp-float"
+            aria-label="WhatsApp"
+        >
+
+            <i class="fab fa-whatsapp"></i>
+
+        </a>
+
+
+        <!-- PHONE -->
+
+        <a
+            href="tel:+919906873783"
+            class="float-btn phone-float"
+            aria-label="Call"
+        >
+
+            <i class="fas fa-phone-alt"></i>
+
+        </a>
+
+
+        <!-- BACK TO TOP -->
+
+        <button
+            type="button"
+            id="back-to-top"
+            class="float-btn top-float"
+            aria-label="Back to Top"
+        >
+
+            <i class="fas fa-chevron-up"></i>
+
+        </button>
+
     </div>
 
-</section>
 
+    <!-- =========================================================
+         JAVASCRIPT
+    ========================================================== -->
 
-<!-- =========================================================
-     RECOMMENDED PRODUCTS
-========================================================= -->
-
-<section class="recommended-section">
-
-    <div class="recommended-header">
-
-        <span class="description-eyebrow">
-            YOU MAY ALSO LIKE
-        </span>
-
-        <h2>
-            Recommended For You
-        </h2>
-
-        <p>
-            Complete your stack with these premium picks.
-        </p>
-
-    </div>
-
-
-    <div
-        class="recommended-products"
-        id="recommended-products"
-    ></div>
-
-</section>
-
-</main>
-
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
-
 </html>

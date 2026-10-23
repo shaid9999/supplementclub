@@ -45,7 +45,7 @@ const PRODUCT_DATABASE = [
         id: 4, 
         name: "Creatine Monohydrate Creapure Powder (100g / 250g)", 
         brand: "MuscleBlaze", 
-        price: 1099, 
+        price: 480, 
         oldPrice: 1200, 
         rating: 5, 
         discount: "100% PURE",
@@ -53,7 +53,7 @@ const PRODUCT_DATABASE = [
     },
     { 
         id: 5, 
-        name: "Pre-Workout WrathX Intense Energy Catalyst (300g)", 
+        name: "Pre-Workout WrathX Intense Energy Catalyst (340g)", 
         brand: "MuscleBlaze", 
         price: 1200, 
         oldPrice: 1450, 

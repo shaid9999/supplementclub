@@ -10,8 +10,8 @@ const PRODUCT_DATABASE = [
     id: 1,
     name: "Biozyme Performance Whey Protein (2kg)",
     brand: "MuscleBlaze",
-    price: 6800,
-    oldPrice: 6500,
+    price: 6500,
+    oldPrice: 7500,
     rating: 5,
     discount: "CLINICALLY TESTED",
 
@@ -35,7 +35,7 @@ const PRODUCT_DATABASE = [
         name: "Biozyme Performance Whey Protein (1kg)", 
         brand: "MuscleBlaze", 
         price: 3600, 
-        oldPrice: 3200, 
+        oldPrice: 3800, 
         rating: 5, 
         discount: "CLINICALLY TESTED",
         image: "download.jpg"
@@ -83,13 +83,13 @@ const PRODUCT_DATABASE = [
     },
     { 
         id: 8, 
-        name: "Gold Standard 100% Whey Protein | 907 g (2 lbs)", 
-        brand: "OPTIMUM NUTRITION", 
-        price: 3999, 
-        oldPrice: 4500, 
+        name: "pintola oats 27gm high protein oats  | 1kg", 
+        brand: "pintola oats", 
+        price: 480, 
+        oldPrice: 530, 
         rating: 5, 
-        discount: "STRENGTH ESP",
-        image: "Screenshot_2026-05-06_222814-removebg-preview (1).png"
+        discount: "high protein",
+        image: "Screenshot 2026-10-22 160038.png"
     },
     { 
         id: 9, 
@@ -290,29 +290,29 @@ const PRODUCT_DATABASE = [
         id: 37, 
         name: "hk vitual skin collagen", 
         brand: "hk vitual", 
-        price: 1048, 
+        price: 899, 
         oldPrice: 1309, 
         rating: 4, 
         discount: "skin ",
         image: "Screenshot_2026-08-22_164650-removebg-preview.png"
     },{ 
         id: 38, 
-        name: "xnano natural mass gainer", 
-        brand: "xnano", 
-        price: 3399, 
-        oldPrice: 3500, 
+        name: "black beast preworkout 50 servings", 
+        brand: "black beast nutrition", 
+        price: 1230, 
+        oldPrice: 1300, 
         rating: 4, 
         discount: "INTENSE PUMP",
-        image: "Screenshot_2026-08-22_164828-removebg-preview.png"
+        image: "Screenshot 2026-11-04 205144.png"
     },,{ 
         id: 40, 
-        name: "pintola oats 27gm protien 1kg", 
-        brand: "pintola ", 
-        price: 480, 
-        oldPrice: 520, 
+        name: "liver belt powerlifting", 
+        brand: "strength ", 
+        price: 4999, 
+        oldPrice: 6999, 
         rating: 4, 
-        discount: "pintola",
-        image: "Screenshot 2026-10-22 160038.png"
+        discount: "supplement club",
+        image: "Screenshot 2026-11-04 204910.png"
     },{ 
         id: 41, 
         name: "alpino oats 27gm protien 2.27kg", 

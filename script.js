@@ -11,7 +11,7 @@ const PRODUCT_DATABASE = [
     name: "Biozyme Performance Whey Protein (2kg)",
     brand: "MuscleBlaze",
     price: 6500,
-    oldPrice: 7500,
+    oldPrice: 7999,
     rating: 5,
     discount: "CLINICALLY TESTED",
 
@@ -35,7 +35,7 @@ const PRODUCT_DATABASE = [
         name: "Biozyme Performance Whey Protein (1kg)", 
         brand: "MuscleBlaze", 
         price: 3600, 
-        oldPrice: 3800, 
+        oldPrice: 4999, 
         rating: 5, 
         discount: "CLINICALLY TESTED",
         image: "download.jpg"
